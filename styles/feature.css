@@ -1,0 +1,26 @@
+.featureHeading {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    scroll-margin-top: 10vh;
+}
+
+.featureHeading-description {
+    width: 45vw;
+}
+
+.featureHeading-description p {
+    font-family: "Merriweather", serif;
+    color: var(--doveGray);
+}
+
+.featureHeading span {
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    color: var(--gray);
+}

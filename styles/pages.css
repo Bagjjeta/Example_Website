@@ -1,0 +1,55 @@
+.pagesContainer {
+    width: 100vw;
+    height: 58vh;
+    display: flex;
+    justify-content: center;
+}
+
+.pagesContainer-element {
+    width: 25vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+
+.pagesContainer-element button {
+    margin: 50px 0 40px 0;
+}
+
+.pagesContainer-element span {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--gray);
+    transition: all 0.4s ease-in-out;
+}
+
+.pagesContainer-element p {
+    width: 20vw;
+    margin-top: 20px;
+    color: var(--doveGray);
+}
+
+.icon-btn {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 0;
+    color: #FFFFFF;
+    background-color: var(--gray);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 50px;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon-btn:hover {
+    background-color: var(--cyan);;
+}
+
+.icon-btn:hover + span{
+    color: var(--cyan);;
+}

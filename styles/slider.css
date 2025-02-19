@@ -1,0 +1,126 @@
+.slider {
+    position: relative;
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    overflow: hidden;
+    margin-top: 7vh;
+}
+
+.slides {
+    width: 300vw;
+    height: 100%;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 100vw;
+    height: 100%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-manual {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+}
+
+.manual-btn {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.manual-btn:hover {
+    background-color: var(--cyan);
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -100vw;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -200vw;
+}
+
+.headerContainer {
+    width: 30vw;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 17.5%;
+    left: 70%;
+}
+
+.headerContainer p {
+    margin-left: 20px;
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+}
+
+.headerBoldText {
+    font-weight: 900;
+}
+
+
+.nav-auto {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.nav-auto div {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.nav-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+    background: var(--cyan);
+    visibility: visible;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+    background: var(--cyan);
+    visibility: visible;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+    background: var(--cyan);
+    visibility: visible;
+}

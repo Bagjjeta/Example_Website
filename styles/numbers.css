@@ -1,0 +1,37 @@
+.numbers {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Merriweather", serif;
+    gap: 10%;
+    margin-top: 10vh;
+}
+
+.numbers-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbers-containers .number {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: var(--gray);
+} 
+
+.numbers-containers .text {
+    color: var(--cyan);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.number {
+    display: flex;
+}
+
+.number-down {
+    margin-top: 3px;
+}

@@ -1,0 +1,96 @@
+.contactContainer {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray);
+    color: #ffffff;
+    font-family: "Merriweather", serif;
+}
+
+.contactContainer-element {
+    width: 25vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    margin: 0 50px;
+}
+
+.line {
+    width: 100px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text span {
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.about-description {
+    margin: 20px 0 0 100px;
+}
+
+.contact-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact-description--container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.description--label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+.contact-description--element {
+    display: flex;
+    margin: 20px 0 20px 70px;
+    align-items: flex-start;
+}
+
+.social-description {
+    margin: 20px 0 0 70px;
+}
+
+.social-conatiner {
+    display: flex;
+    margin: 15px 70px;
+    gap: 20px;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 25px;
+    background-color: var(--cyan);
+    text-decoration: none;
+    border: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.social-btn:hover {
+    background-color: #ffffff;
+    color: var(--cyan);
+    cursor: pointer;
+}

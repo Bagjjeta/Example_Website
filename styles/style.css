@@ -1,0 +1,29 @@
+@import "./responsive.css";
+@import "./header.css";
+@import "./slider.css";
+@import "./pages.css";
+@import "./feature.css";
+@import "./gallery.css";
+@import "./services.css";
+@import "./blog.css";
+@import "./numbers.css";
+@import "./contact.css";
+@import "./footer.css";
+
+:root {
+    --cyan: rgb(38, 202, 214);
+    --gray: rgb(51, 48, 45);
+    --darkGray: rgb(34, 33, 31);
+    --doveGray: rgb(124, 124, 124);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
